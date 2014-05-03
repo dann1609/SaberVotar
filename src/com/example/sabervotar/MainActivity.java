@@ -12,25 +12,32 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.os.Build;
 
 public class MainActivity extends Activity {
-
+TextView tv1;
+EditText tv2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        tv1=(TextView) findViewById(R.id.label2);
+        String name1=tv1.getText().toString();
         Button miboton=(Button) findViewById(R.id.button1);
         miboton.setOnClickListener(new OnClickListener() {
-			
+		
+                	
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				TextView mietiqueta = (TextView) findViewById(R.id.label);
-				mietiqueta.setText("Bienvenidos");
+				tv1.setText(name1);
 			}
 		});
+        
     }
 
 
