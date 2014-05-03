@@ -1,0 +1,1 @@
+SaberVotar es una aplicación creada para mantener informado a los votantes de un resumen de la Hoja de vida de los candidatos. No solo la profesional, sino también de las vinculaciones laborales con otros políticos, procesos de contratación y demás. Todo esto para tener una idea de su forma de gestionar y la calidad de sus resultados.
