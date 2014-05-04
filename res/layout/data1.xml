@@ -2,6 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="CLARA LOPEZ \n Presidenta del Polo Democratico\n Alcaldesa de Bogota\n Secretaria de gobierno de Bogota\n Alma Mater: Universidad de Hardvard\n En 2002 fue nombrada Auditora General de Colombia\n En junio de 2005 denunció ante la Corte Suprema de Justicia de Colombia la infiltración de organizaciones armadas ilegales de extrema derecha en el Estado Colombiano\n La denuncia de Clara fue la que dio inició al proceso de Parapolítica"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

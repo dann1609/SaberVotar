@@ -2,6 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="JUAN MANUEL SANOS\n Presidente de la Republica\n Ministro de Defensa\n Ministro de Hacienda y Credito Publico\n Ministro de Comercio Exterior\n Alma Mater: Universidad de Harvard  Universidad de Kansas\n Fue quien propuso el cambio de la hora legal del país al horario de verano durante nueve meses, para contrarestar el efecto de los apagones eléctricos programados\n Ejercía como ministro de Defensa cuando se desató el escándalo de los llamados Falsos Positivos\n "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

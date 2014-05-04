@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
+    android:layout_height="match_parent" 
+    tools:context=".Seleccion"
+   
+ >
+ 
+    
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -23,50 +28,48 @@
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/button1"
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="31dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:layout_centerVertical="true"
+        android:src="@drawable/carton" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_marginLeft="20dp"
-        android:layout_toRightOf="@+id/button2"
-        android:text="Button" />
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="22dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/imageView1" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="49dp"
-        android:text="Button" />
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/button1" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button4"
-        android:layout_alignBottom="@+id/button4"
-        android:layout_alignRight="@+id/button2"
-        android:text="Button" />
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -2,6 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ENRIQUE PEÑALOSA\n Alcalde de Bogota\n Representante a la Camara\n Alma mater Universidad Duke\n Se ha desempeñado como consultor internacional en temas de urbanismo,1 siendo reconocido mundialmente como una autoridad en la materia, especialmente en temas de transporte masivo en las ciudades\n Implementó el sistema Transmilenio para mejorar el transporte de los ciudadanos e instauró el «pico y placa» y el día sin carro como medidas para mejorar la movilidad\n Construyó las megabibliotecas El Tintal, El Tunal y la Biblioteca Virgilio Barco, otras 13 bibliotecas de menor escala, 23 colegios, además de ampliar en más de 200.000 los cupos escolares en escuelas y jardines en sectores deprimidos de la ciudad\n"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

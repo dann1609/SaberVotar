@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:text="Escribe Tu nombre y pulsa el boton"
+        android:text="Bienvenido a Saber Votar esta aplicación te ayudara a conocer la Hoja de Vida y el historial de contratación resumido, a fin de que puedas tener una idea de su forma de gestionar y la calidad de sus resultados si es designado presidente de la republica.\n Escribe Tu nombre y pulsa el boton para empezar"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
@@ -36,7 +36,7 @@
         android:layout_below="@+id/escribe1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Grabar nombre" />
+        android:text="¡Empieza ya! " />
 
     <TextView
         android:id="@+id/label2"

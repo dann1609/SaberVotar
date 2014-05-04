@@ -2,6 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="OSCAR IVAN ZULUAGA\n Ministro de Haciendo y Credito Publico\n Senador de la Republica\n Alcalde de Pensilvania (Caldas)\n Alma Mater: Pontificia Universidad Javeriana Universidad de Exeter\n Recibió el reconocimiento de ser uno de los 10 Ejecutivos Jóvenes Sobresalientes de Colombia 1997\n Iniciativas en el senado\n Regular la igualdad electoral ente los candidatos a la Presidencia de la República y las demás materias que establece el Acto Legislativo N° 02 de 2004\n Reformar algunos artículos de la Constitución Política de Colombia para reelección presidencias\n "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

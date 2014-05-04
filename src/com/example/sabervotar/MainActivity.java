@@ -37,7 +37,7 @@ EditText tv2;
 				TextView mietiqueta = (TextView) findViewById(R.id.label);
 				EditText minombre = (EditText) findViewById(R.id.escribe1);
 				String name1=minombre.getText().toString();
-				tv1.setText("Bienvenido "+name1);
+				
 				//mostrar pantalla seleccion
 				Intent int1=new Intent("com.example.sabervotar.Seleccion");
 				Bundle nombre=new Bundle();

@@ -2,6 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="MARTHA LUCIA RAMIREZ\n Senadora de la Republica\n Ministra de Defensa\n Ministra de Comercio Exterior\n Alma mater: Pontificia universidad Javeriana\n Presentó varias iniciativas legislativas\n El proyecto de ley de Primer Empleo\n El proyecto de ley de Juventud\n "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
