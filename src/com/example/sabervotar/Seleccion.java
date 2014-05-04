@@ -28,6 +28,56 @@ public class  Seleccion extends Activity {
 		usuario=(TextView)findViewById(R.id.textView2);
 		Bundle recibe=getIntent().getExtras();
 		usuario.setText("Bienvenido "+recibe.getString("usuario"));
+		
+		Button bt1=(Button) findViewById(R.id.button1);
+        bt1.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+        
+        Button bt2=(Button) findViewById(R.id.button2);
+        bt2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+        
+        Button bt3=(Button) findViewById(R.id.button3);
+        bt3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+        
+        Button bt4=(Button) findViewById(R.id.button4);
+        bt4.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+        
+        Button bt5=(Button) findViewById(R.id.button5);
+        bt5.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 	}
 
 }
