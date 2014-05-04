@@ -25,7 +25,7 @@ EditText tv2;
         setContentView(R.layout.activity_main);
         
         tv1=(TextView) findViewById(R.id.label2);
-        String name1=tv1.getText().toString();
+        
         Button miboton=(Button) findViewById(R.id.button1);
         miboton.setOnClickListener(new OnClickListener() {
 		
@@ -34,7 +34,9 @@ EditText tv2;
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				TextView mietiqueta = (TextView) findViewById(R.id.label);
-				tv1.setText(name1);
+				EditText minombre = (EditText) findViewById(R.id.escribe1);
+				String name1=minombre.getText().toString();
+				tv1.setText("Bienvenido "+name1);
 			}
 		});
         
