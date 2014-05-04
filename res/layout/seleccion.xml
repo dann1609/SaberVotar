@@ -52,13 +52,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignTop="@+id/imageView1" />
-
-    <Button
         android:id="@+id/button4"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -71,5 +64,12 @@
         android:layout_height="130dp"
         android:layout_alignBottom="@+id/imageView1"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1" />
 
 </RelativeLayout>
