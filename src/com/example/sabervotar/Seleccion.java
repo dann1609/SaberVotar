@@ -1,6 +1,7 @@
 package com.example.sabervotar;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -36,6 +37,10 @@ public class  Seleccion extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+			Dialog d1=new Dialog(Seleccion.this);
+			d1.setTitle("Historial");
+			d1.setContentView(R.layout.data1);
+			d1.show();
 			}
 		});
         
@@ -46,6 +51,10 @@ public class  Seleccion extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+			Dialog d2=new Dialog(Seleccion.this);
+			d2.setTitle("Historial");
+			d2.setContentView(R.layout.data2);
+			d2.show();				
 			}
 		});
         
@@ -56,6 +65,10 @@ public class  Seleccion extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+			Dialog d3=new Dialog(Seleccion.this);
+			d3.setTitle("Historial");
+			d3.setContentView(R.layout.data3);
+			d3.show();		
 			}
 		});
         
@@ -66,6 +79,10 @@ public class  Seleccion extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+			Dialog d4=new Dialog(Seleccion.this);
+			d4.setTitle("Historial");
+			d4.setContentView(R.layout.data4);
+			d4.show();
 			}
 		});
         
@@ -76,6 +93,10 @@ public class  Seleccion extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+			Dialog d5=new Dialog(Seleccion.this);
+			d5.setTitle("Historial");
+			d5.setContentView(R.layout.data5);
+			d5.show();
 			}
 		});
 	}
