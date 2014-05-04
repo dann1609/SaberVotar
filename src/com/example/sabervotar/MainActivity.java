@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -37,6 +38,12 @@ EditText tv2;
 				EditText minombre = (EditText) findViewById(R.id.escribe1);
 				String name1=minombre.getText().toString();
 				tv1.setText("Bienvenido "+name1);
+				//mostrar pantalla seleccion
+				Intent int1=new Intent("com.example.sabervotar.Seleccion");
+				Bundle nombre=new Bundle();
+				nombre.putString("usuario",name1);
+				int1.putExtras(nombre);
+				startActivity(int1);
 			}
 		});
         
